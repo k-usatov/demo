@@ -10,5 +10,10 @@ class SayControllerTest < ActionController::TestCase
     get :goodbye
     assert_response :success
   end
+  
+  test "should get dz" do
+    get :dz
+    assert_response :success
+  end
 
 end
