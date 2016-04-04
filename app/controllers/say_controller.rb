@@ -4,6 +4,4 @@ class SayController < ApplicationController
   end
   def goodbye
   end
-  def sum
-  end
 end
